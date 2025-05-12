@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px solid;
+    
 }
 
 body{
@@ -635,7 +635,10 @@ body{
 .Box-container{
     display: flex;
     align-items: center;
-    margin-left: 2rem;   
+    margin-left: 2rem; 
+}
+.Box-container4{
+    margin-top: 1rem;
 }
 .Box2-R1{
     width: 50%;
@@ -1037,8 +1040,8 @@ hr{
 .Left-Box img {
     position: absolute;
     width: 550px;
-    top: 50%;
-    left: 50%;
+    top: 55%;
+    left: 280px;
     transform: translate(-50%, -50%);
     z-index: 100;
 }
@@ -2225,13 +2228,30 @@ hr{
 
 @media(max-width: 400px){
     .Box1-R4-P2, .Box-imgI{
-        margin-top: -0.5rem;
+        
     }
 
     .Box-4,.Box-6, .Box-8{
         margin-top: -2rem;
         margin-bottom: 50%;
+    
     }
+    .Box-container{
+        height: 90px;
+        margin-top: -1rem;
+        margin-left: 1.1rem;
+        margin-right: auto;
+        
+    }
+    .Box3-R2{
+        margin-top:14.5rem ;
+        margin-bottom: -1rem;
+    }
+    .Box2-R3{
+        margin-top: 220px;
+    }
+    .Box1-R3{}
+    
     
     .Box-5, .Box-7, .Box-9{
         background: none;
@@ -2245,7 +2265,8 @@ hr{
         width: 100%; /* or adjust as needed */
         height: 80%;
         display: block;
-        margin: 0 auto;
+        margin:  auto;
+        margin-top: 1rem;
         
     }
     .Box-1,.Box-2,.Box-3{
@@ -2256,6 +2277,33 @@ hr{
     .Box1-R3{
         margin-top: 1.5rem;
     }
+    .Box-P2{
+        width: 100%;
+    }
+    .navbar-button{
+        width: 50%;
+        padding: 5px;
+        border-radius: 4px;
+        
+    }
+   .navbar-logo-container img, .navbar-logo-container {
+    width: 60%;
+   }
+   .navbar-button-link{
+    text-align: center;
+   }
+   .Footer-link{
+    width: 30%;
+   }
+
+   .Footer-menu-container{
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+   }
+   .Footer-link{
+    width: auto;
+   }
     
         
 }
