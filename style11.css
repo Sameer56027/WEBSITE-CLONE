@@ -1,0 +1,288 @@
+.animation {
+  background-color: #1b5ec9;
+  padding: 35px 0;
+  overflow: hidden;
+  position: relative;
+  width: 85%;
+  margin: auto;
+  border-radius: 14px;
+}
+
+.animation span {
+  color: #ebe212;
+  background-color: #2a2f0a;
+  font-weight: bolder;
+  padding: 10px 20px;
+  margin: 9px 7px;
+  font-size: 3rem;
+  display: inline-block;
+  white-space: nowrap;
+}
+
+
+.container-1,
+.container-2,
+.container-3 {
+  display: flex;
+  flex-wrap: nowrap;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  font-family: 'Oswald', Arial, sans-serif;
+  font-weight: bolder;
+}
+
+.container-1 {
+  animation-name: move-left;
+}
+
+.container-2 {
+  animation-name: move-right;
+}
+
+.container-3 {
+  animation-name: move-left;
+}
+
+@keyframes move-left {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes move-right {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+.animation img {
+  position: absolute;
+  top: 60%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+  max-height: 80%;
+  z-index: 1;
+  pointer-events: none;
+  animation: rocket-float 20s linear infinite;
+}
+
+
+.primary-footer .circle-animation {
+  width: 50%;
+  height: 100%;
+  background-color: #ebe212;
+  z-index: 1;
+}
+
+.primary-footer .footer-head {
+  width: 50%;
+  height: 100%;
+  background-color: #292e0eff;
+  z-index: 1;
+  padding: 30px;
+  position: relative;
+}
+
+.primary-footer .footer-head img {
+  border: 1px solid #ebe212;
+  position: absolute;
+  top: 45px;
+  left: 35px;
+}
+
+.primary-footer {
+  position: relative;
+  width: 85%;
+  height: 550px;
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: #292e0eff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+  margin-bottom: -385px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3), 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+
+.primary-footer .circle-animation {
+  width: 50%;
+  height: 100%;
+  background-color: #ebe212;
+  z-index: 1;
+}
+
+.primary-footer .footer-head {
+  width: 50%;
+  height: 100%;
+  background-color: #292e0eff;
+  z-index: 1;
+  padding: 30px;
+  position: relative;
+}
+
+.primary-footer .footer-head img {
+  border: 1px solid #ebe212;
+  position: absolute;
+  top: 45px;
+  left: 35px;
+}
+
+.foot-head-div {
+  position: absolute;
+  bottom: 35px;
+  left: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  row-gap: 15px;
+  font-family: 'Cal Sans', Arial, Helvetica, sans-serif;
+  width: 80%;
+}
+
+.foot-head-div h3 {
+  font-size: 3.5rem;
+}
+
+.foot-head-div p {
+  font-size: 1.1rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.foot-head-div .footer-btn {
+  width: 100%;
+  padding: 15px 0;
+  color: #292e0eff;
+  border-radius: 10px;
+  background-color: #cbffc7ff;
+  cursor: pointer;
+}
+
+.secondary-footer {
+  width: 100%;
+  height: 700px;
+  background-color: #292e0eff;
+  z-index: 1;
+  position: relative;
+}
+
+.sec-foot-div {
+  width: 85%;
+  margin: 420px auto;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  row-gap: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.sec-foot-div img {
+  border: 1px solid #ebe212;
+}
+
+.sec-foot-div .foot-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.sec-foot-div .foot-links p {
+  width: 25%;
+  font-size: 1.2rem;
+}
+
+.sec-foot-div .foot-links ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.sec-foot-div .foot-links ul li,
+a {
+  color: #cbffc7ff;
+  text-decoration: none;
+  list-style: none;
+  margin-top: 45px;
+}
+
+.sec-foot-div hr {
+  width: 100%;
+  border: 1px solid rgb(51, 54, 33);
+}
+
+.circle-animation {
+  position: relative;
+  width: 50%;
+  height: 100%;
+  background-color: #ebe212;
+  z-index: 1;
+}
+
+.circle-animation {
+  position: relative;
+  width: 50%;
+  height: 100%;
+  background-color: #ebe212;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.circle-animation .circle-one,
+.circle-animation .circle-two,
+.circle-animation .circle-three {
+  position: absolute;
+  border-radius: 50%;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.circle-animation .circle-one {
+  background-color: #ff5500ff;
+  width: 250px;
+  height: 250px;
+  z-index: 10;
+  animation-name: smoothMoveOne;
+}
+
+.circle-animation .circle-two {
+  background-color: #facadfff;
+  width: 350px;
+  height: 350px;
+  z-index: 8;
+  animation-name: smoothMoveTwo;
+}
+
+.circle-animation .circle-three {
+  background-color: #4eb583ff;
+  width: 450px;
+  height: 450px;
+  z-index: 7;
+  animation-name: smoothMoveThree;
+}
+
+
+.circle-animation img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+}
+
+.foot-logo{
+  width: 150px;
+}
+
